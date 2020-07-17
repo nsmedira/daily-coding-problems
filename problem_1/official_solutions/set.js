@@ -1,3 +1,5 @@
+// time complexity for this solution is O(N) since lookups of sets are O(1) each
+
 function two_sum ( list, k ) {
     let seen = new Set()
     for ( let i = 0 ; i < list.length ; i++ ) {
