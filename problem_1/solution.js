@@ -2,6 +2,8 @@
 // For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 // Bonus: Can you do this in one pass?
 
+// time complexity for this solution is O(N^2)
+
 const list = [9, 9, 1, 1]
 const k = 18
 let complete = false
